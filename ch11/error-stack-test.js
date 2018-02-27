@@ -1,29 +1,29 @@
 function a(){
-	console.log('a : calling b');
-	b();
-	console.log('a: done');
+  console.log('a : calling b');
+  b();
+  console.log('a: done');
 }
 
 function b(){
-	console.log('b: calling c');
-	c();
-	console.log('b: done');
+  console.log('b: calling c');
+  c();
+  console.log('b: done');
 }
 
 function c(){
-	console.log('c: throwing error');
-	throw new Error('c error');
-	console.log('c: done');
+  console.log('c: throwing error');
+  throw new Error('c error');
+  console.log('c: done');
 }
 
 function d(){
-	console.log('d: calling c');
-	c();
-	console.log('d: done');
+  console.log('d: calling c');
+  c();
+  console.log('d: done');
 }
 
 try {
-	d();
+  d();
 } catch(err){
-	console.error(err.stack);
+  console.error(err.stack);
 }
