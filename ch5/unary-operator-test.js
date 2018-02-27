@@ -1,0 +1,19 @@
+let x = 2;
+const r1 = x++ + x++;
+console.log(r1);			// 2 + 3 = 5
+const r2 = ++x + ++x;	
+console.log(r2);			// (++4)+(++5) -> 5 + 6 = 11
+const r3 = x++ + ++x;
+console.log(r3);			// 6 + (++7) -> 6 + 8 = 14
+const r4 = ++x + x++;
+console.log(r4);			// 9 + 9 = 18
+
+let y = 10;
+const r5 = y-- + y--;
+console.log(r5);			// 10 + 9 = 19
+const r6 = --y + --y;
+console.log(r6);			// 7 + 6 = 13
+const r7 = y-- + --y;
+console.log(r7);			// 6 + 4 = 10
+const r8 = --y + y--;
+console.log(r8);			// 3 + 3 = 6
