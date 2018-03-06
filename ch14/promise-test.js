@@ -12,7 +12,7 @@ function countdown(seconds){
   })
 }
 
-// 1. 프라미스 사용 예제 
+// 1. 프라미스 사용 예제
 countdown(5).then(
   function() {
     console.log('countdown completed successfully');
