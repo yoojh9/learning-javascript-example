@@ -11,7 +11,7 @@ const getId = () => new Promise( resolve => {
 }*/
 
 const getNameById = id => new Promise(resolve => {
-  setTimeout(() => resolve('chris'),1);
+  setTimeout(() => resolve('Jeonghyun'),1);
 })
 
 /*const getNameById = function(id){
