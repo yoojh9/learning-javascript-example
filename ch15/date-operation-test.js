@@ -5,4 +5,4 @@ const msDiff = d1-d2;
 console.log(msDiff);  // 51753600000
 
 const dayDiff = msDiff/1000/60/60/24;
-console.log(dayDiff); // 599 days
+console.log(dayDiff);  // 599 days
