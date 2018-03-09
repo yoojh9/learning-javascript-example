@@ -9,4 +9,4 @@ const match = input.match(/\d{5}.*/); // '55532. phone: 555-555-2525.'
 const equation = "(2 + 3.5) * 7";
 // \. : 마침표 자체
 const match2 = equation.match(/\(\d \+ \d\.\d\) \* \d/); // '(2 + 3.5) * 7'
-console.log(match2)
+console.log(match2) 
