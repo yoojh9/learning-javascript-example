@@ -1,13 +1,12 @@
 {
-    "extends": "standard",
-    "rules":{
-    	"comma-dangle": [
-    		2,
-    		"always-multiline"
-    	],
-    	"indent":[
-    		2,
-    		4
-    	]
-    }
+  "rules":{
+    "comma-dangle": [
+      2,
+      "always-multiline"
+    ],
+    "indent":[
+      2,
+      4
+    ]
+  }
 }
